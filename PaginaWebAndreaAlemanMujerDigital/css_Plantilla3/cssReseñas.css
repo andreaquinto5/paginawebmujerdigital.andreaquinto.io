@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Della Respira', serif;
+}
+
+body {
+    background-color: #FBE2B6;
+    text-align: center;
+    font-family: 'Della Respira', serif;
+    color:#9D4D06;
+}
+
+h1 {
+    /*width: 100%;*/
+    background-color: #84002C;
+    text-align: center;
+    color:#FFFEFD;
+    padding: 26px 4%;
+    font-size: 48px;
+    font-family: 'Della Respira', serif;
+}
+
+.footer {
+    width: 100%;
+    padding: 3%;
+    font-size: 18px;
+    background-color: #A56933;
+    color:#FFFEFD;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+/* Style de abajo de los links de navegación */
+.topnav a {
+    color:#A56933;
+    text-align: center;
+    padding: 14px 44px;
+    text-decoration:#A56933;
+    font-size: 28px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+
+
+/*CONTENIDO*/
+.contenedorPadre{
+    background-color: #FBE2B6;
+    width: 65px;
+    height: 135vh;
+}
+
+/*CONTENEDORES*/
+.contenedorHijo1{
+    background-color: #FFF;
+    width: 10cm;
+    height: 37vh;
+    margin-left: 50px;
+    margin-top : 30px;
+    border-radius: 20%;
+    
+}
+
+.contenedorHijo2{
+    background-color: #FFF;
+    width: 10cm;
+    height: 45vh;
+    margin-left: 50px;
+    margin-top : 50px;
+    border-radius: 20%;
+}
+
+.contenedorHijo3{
+    background-color: #FFF;
+    width: 10cm;
+    height: 37vh;
+    margin-left: 50px;
+    margin-top : 78px;
+    border-radius: 20%;
+}
+
+.contenedorHijo4{
+    background-color: #FFF;
+    width: 10cm;
+    height: 45vh;
+    margin-left: 700px;
+    margin-top : -57.5rem;
+    border-radius: 20%;
+    
+}
+
+.contenedorHijo5{
+    background-color: #84002C;
+    width: 20cm;
+    height: 90vh;
+    margin-left: 550px;
+    margin-top : 3rem;  
+    
+}
+.descripcion{
+    color:#9D4D06; 
+    width:75%; 
+    padding: 2%;
+    font-size: 38px;
+    margin-bottom: 3%;
+}
+
+/*PARRAFOS TITULOS*/
+.contenedorHijo1 .tituloparrafo{
+    color: black;
+    margin-top: 1rem;
+    font-size: 20px;
+    
+}
+
+.contenedorHijo2 .tituloparrafo2{
+    color: black;
+    margin-top: 1rem;
+    font-size: 20px;
+    
+}
+
+.contenedorHijo3 .tituloparrafo3{
+    color: black;
+    margin-top: 1rem;
+    font-size: 20px;
+    
+}
+
+.contenedorHijo4 .tituloparrafo4{
+    color: black;
+    margin-top: 1rem;
+    font-size: 20px;
+    
+}
+
+.contenedorHijo5 .tituloparrafo5{
+    color: white;
+    margin-top: 1rem;
+    font-size: 30px;
+    
+}
+
+
+
+
+
+/*PARRAFOS*/
+.contenedorHijo1 .parrafo{
+    
+    margin-left: 100px;
+    color: black;
+    
+    margin-top: -3rem;    
+
+    
+}
+
+.contenedorHijo2 .parrafo2{
+    
+    margin-left: 100px;
+    color: black;
+    
+    margin-top: -3rem;    
+
+    
+}
+
+.contenedorHijo3 .parrafo3{
+    
+    margin-left: 100px;
+    color: black;
+    
+    margin-top: -3rem;    
+    
+    
+}
+
+
+.contenedorHijo4 .parrafo4{
+    
+    margin-left: 100px;
+    color: black;
+    
+    margin-top: -3.5rem;    
+
+    
+}
+
+/*IMAGENES*/
+.contenedorHijo1 .imagen1{
+    margin-right: 290px;
+    margin-top: -1rem;
+    margin-left: 2rem;
+    
+}
+
+.contenedorHijo2 .imagen2{
+    margin-right: 290px;
+    margin-top: -1rem;
+    margin-left: 2rem;
+    
+}
+
+.contenedorHijo3 .imagen3{
+    margin-right: 290px;
+    margin-top: -1rem;
+    margin-left: 2rem;
+    
+}
+
+.contenedorHijo4 .imagen4{
+    margin-right: 290px;
+    margin-top: -1rem;
+    margin-left: 2rem;
+    
+}
+
+
+/*ESTRELLAS*/
+.contenedorHijo1 .estrella1{
+    margin-top: 1rem;
+    margin-left: 9rem;
+    width: fit-content;
+}
+
+.contenedorHijo2 .estrella2{
+    margin-top: 1rem;
+    margin-left: 9rem;
+    width: fit-content;
+}
+
+.contenedorHijo3 .estrella3{
+    margin-top: 1rem;
+    margin-left: 9rem;
+    width: fit-content;
+}
+
+.contenedorHijo4 .estrella4{
+    margin-top: -0.1rem;
+    margin-left: 9rem;
+    width: fit-content;
+}
+
+/*CONTENEDOR COLOR ROSA*/
+.contenedorHijo5 .linea{
+    margin-top: 4   rem;
+    margin-left: 9.5rem;
+    width: fit-content;
+}
+
+.contenedorHijo5 .line2{
+    margin-top: 10rem;
+    margin-left: 9rem;
+    width: fit-content;
+}
+
+.contenedorHijo5 .imagenCarita{
+    width: fit-content;
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+}
+
+.contenedorHijo5 .botonEnviar{
+    width: fit-content;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+}
+
+.contenedorHijo5 .PrimerComentario{
+    color: white;
+    width: fit-content;
+    margin-left: 10rem;
+    margin-top: -13rem;
+    font-size: 20px;
+    
+}
+
+.contenedorHijo5 .SegundoComentario{
+    color: white;
+    width: fit-content;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    font-size: 20px;
+    
+}
+
+.contenedorHijo5 .TercerComentario{
+    color: white;
+    width: fit-content;
+    margin-left: 10rem;
+    margin-top: 1.5rem;
+    font-size: 20px;
+    
+}
+
+.contenedorHijo5 .textbox{
+    
+    width: fit-content;
+    margin-left: 10rem;
+    margin-top: 1rem;
+   
+    
+}
+
+.contenedorHijo5 .textbox2{
+    
+    width: fit-content;
+    margin-left: 10rem;
+    margin-top: 1rem;
+   
+    
+}
+
+
+.contenedorHijo5 .estrellaReseña{
+    margin-top: 1rem;
+    margin-left: 10rem;
+    width: fit-content;
+}
+
+.contenedorPadre .descripcion{
+    font-size: 38px;
+    margin-top: 6rem;
+    margin-left: -13rem;
+    width: 100%;     
+
+}

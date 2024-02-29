@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Della Respira', serif;
+}
+
+body {/*fondo exteior mas oscuro*/
+    background-color: #b89559;
+    justify-content: center;
+    font-family: 'Della Respira', serif;
+    color:#9D4D06;
+    height: 80%;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.contenido{
+    background: #15616D;
+    text-align: center;
+    font-family: 'Della Respira', serif;
+    color:#9D4D06;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15%;/*redondiado de la caja azul*/
+    margin-top: 20px;
+    padding: 50px 5px;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+main{
+    text-align: center;
+    background-color: #FBE2B6;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cuadro{
+    padding: 150px 150px;
+    padding-bottom: 300px;
+}
+.lineas{/*control de las lineas delgadas*/
+    background-color: #FBE2B6;
+    text-align: justify;
+    font-family: 'Della Respira', serif;
+    color:#9D4D06;
+    height: 600px;
+    display: flex;/*definicion de las lineas*/
+    justify-content: center;
+    align-items: center;
+    
+}
+.form{/*trabajar solo con el formulario sin alterar lo demas*/
+    width: 100%;
+    margin: auto;
+    color: #9D4D06;
+}
+form .grupo{/*tener movimiento sobre los elementos del formulario*/
+    position: relative;
+    margin: 40px;
+}
+form .grupo1{
+    position: relative;
+    margin: 20px;
+}
+.grupo .lin{
+    background: none;
+    color:black;
+    font-family: 'Della Respira', serif;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    display:block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #15616D;
+}
+button{ /*botones*/
+    background: #AA0606;
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+    padding: auto;
+}
+
+.bordes{  /*//////titulo de reservacion*/
+    background-color: #FBE2B6;
+    text-align: center;
+    color: #341F0A;
+    border-top: 10px solid #15616D;
+    border-bottom: 10px solid #15616D;
+    text-decoration: none;
+    width: 54%;
+    margin-left: 23%;
+
+}
+input{
+    padding: 5px 20px;
+}
+

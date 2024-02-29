@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Della Respira', serif;
+}
+
+@font-face{
+    font-family: 'Della Respira';
+    src: url(../fonts/DellaRespira-Regular.ttf);
+}
+
+body {
+    background-color: #FBE2B6;
+    text-align: center;
+    font-family: 'Della Respira', serif;
+    color:#9D4D06;
+}
+
+.fondo{
+    height: 100vh;
+    background-position:center;
+    background-size: cover;
+    padding-bottom: 110px;
+}
+
+.contenedor{
+    height: 500px;
+}
+
+.contenedorimagenes{
+    width: 100%;
+    height: 500px;
+}
+
+.video{
+    width: 100%;
+    height: 300px;
+}
+
+
+/*******************************************************************/
+
+h1 {
+    /*width: 100%;*/
+    background-color: #460540;
+    text-align: center;
+    color:#FFFEFD;
+    padding: 26px 4%;
+    font-size: 48px;
+    font-family: 'Della Respira', serif;
+}
+
+h2{
+    background: linear-gradient(#460540, rgb(163, 42, 179));
+    color:#FFFEFD;
+}
+
+.footer {
+    width: 100%;
+    padding: 3%;
+    font-size: 18px;
+    background-color: #A56933;
+    color:#FFFEFD;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+/* Style de abajo de los links de navegación */
+.topnav a {
+    color:#A56933;
+    text-align: center;
+    padding: 14px 44px;
+    text-decoration:#A56933;
+    font-size: 28px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+.hist1{
+    float: left;
+    padding-top: 30px;
+    padding-left: 48px;
+    padding-right: 45px;
+    width: 500px;
+    height: 550px;
+    flex: auto;
+    padding: 3%;
+}
+
+.hist2{
+    float: right;
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    padding-right: 70px;
+    width: 650px;
+    height: 550px;
+    flex: auto;
+}
+
+.parr{
+    text-align: justify;
+    padding: 30px;
+    padding-top: 35px;
+    font-size: 26px;
+    padding-left: 80px;
+    padding-right: 70px;
+}
+
+.parr2{
+    text-align: justify;
+    padding: 40px;
+    padding-top: 240px;
+    padding-right: 30px;
+    font-size: 26px;
+    padding-left: 46px;
+}

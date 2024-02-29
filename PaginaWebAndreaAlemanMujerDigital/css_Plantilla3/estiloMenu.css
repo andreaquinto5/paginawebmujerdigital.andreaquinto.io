@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Della Respira', serif;
+}
+
+body {
+    background-color: #FBE2B6;
+    text-align: center;
+    font-family: 'Della Respira', serif;
+    color:#9D4D06;
+}
+
+
+/*Header*/
+
+.header{
+    position: absolute;
+    /*width: 1348px;*/
+    width: 100%;
+    height: 445px;
+    left: -1px;
+    top: 0px;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+/* Style de abajo de los links de navegación */
+.topnav a {
+    color:#A56933;
+    text-align: center;
+    padding: 14px 44px;
+    text-decoration:#A56933;
+    font-size: 28px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    text-decoration:underline;
+    font-weight: bold;
+} 
+
+h1 {
+    /*width: 100%;*/
+    background-color: #AA0606;;
+    text-align: center;
+    color:#FFFEFD;
+    padding: 26px 4%;
+    font-size: 48px;
+    font-family: 'Della Respira', serif;
+}
+
+
+/*contenido div*/
+.contenido{
+    position: absolute;
+    width: 1348px;
+    height: 416px;
+    left: 0px;
+    top: 430px;
+}
+
+.logbajo{
+    position: relative;
+    width: 1348px;
+    height: 300px;
+    left: 0px;
+    top: 700px;
+
+}
+
+.verso{
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    left: 280px;
+    top: 200px;
+    font-family: Della Respira;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    
+
+    color: #9D4D06;
+
+}
+
+.calientes{
+    position: absolute;
+    width: 187px;
+    height: 33px;
+    left: 100px;
+    top: 550px;
+
+    font-family: Della Respira;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+
+    text-align: center;
+
+    color: #9D4D06;
+}
+
+.c2{
+    position: absolute;
+    width: 140px;
+    height: 33px;
+    left: 430px;
+    top: 550px;
+
+    font-family: Della Respira;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+
+    text-align: center;
+
+    color: #9D4D06;
+}
+
+.c3{
+    position: absolute;
+    width: 180px;
+    height: 80px;
+    left: 766px;
+    top: 550px;
+
+    font-family: Della Respira;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+
+    text-align: center;
+
+    color: #9D4D06;
+}
+
+.c4{
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    left: 1070px;
+    top: 550px;
+
+    font-family: Della Respira;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+
+    text-align: center;
+
+    color: #9D4D06;
+}
+
+
+
+.img1{
+    position: absolute;
+    width: 169px;
+    height: 134px;
+    left: 104px;
+    top: 610px;
+
+    border-radius: 121.5px;
+}
+
+.img2{
+    position: absolute;
+    width: 169px;
+    height: 134px;
+    left: 415px;
+    top: 610px;
+
+    border-radius: 133.5px;
+}
+
+
+
+.img3{
+    position: absolute;
+    width: 169px;
+    height: 134px;
+    left: 770px;
+    top: 610px;
+
+    border-radius: 141.5px;
+}
+
+
+.img4{
+    position: absolute;
+    width: 169px;
+    height: 134px;
+    left: 1120px;
+    top: 610px;
+
+    border-radius: 134.5px;
+}
+
+.view{
+    position: absolute;
+    width: 144px;
+    height: 38px;
+    left: 114px;
+    top: 690px;
+    background-color: red;
+    border-radius: 40px;
+    text-align:center;
+    text-size: 28px;
+
+}
+
+.view1{
+    position: absolute;
+    width: 144px;
+    height: 38px;
+    left: 425px;
+    top: 690px;
+    background-color: red;
+    border-radius: 40px;
+    text-align:center;
+
+}
+
+.view2{
+    position: absolute;
+    width: 144px;
+    height: 38px;
+    left: 785px;
+    top: 690px;
+    background-color: red;
+    border-radius: 40px;
+    text-align:center;
+
+}
+
+.view3{
+    position: absolute;
+    width: 144px;
+    height: 38px;
+    left: 1130px;
+    top: 690px;
+    background-color: red;
+    border-radius: 40px;
+    text-align:center;
+
+}
+
+
+
+/*footer*/
+.footer {
+    position: absolute;
+    width: 1348px;
+    height: 165px;
+    left: 0px;
+    top: 1400px;
+    background: #A56933;
+}
+
+.con{
+    color: white;
+    
+} 
+
+
+
+/*paginas aparte*/
+.baner{
+    position: absolute;
+
+    left: 530px;
+    top: 460px;
+    font-family: Della Respira;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    background: linear-gradient(#AA0606, rgb(252, 195, 40));
+
+    color: #FFFEFD;
+}
+
+.baner1{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 566px;
+    top: 360px;
+
+    font-family: Della Respira;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+
+    color: #9D4D06;
+}
+
+.volver{
+    position: absolute;
+    width: 129px;
+    height: 34px;
+    left: 58px;
+    top: 280px;
+
+    font-family: Della Respira;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+
+    color: #9D4D06;
+}
+
+
+
+.precio{
+    position: absolute;
+    width: 144px;
+    height: 38px;
+    left: 114px;
+    top: 720px;
+    background-color: red;
+    border-radius: 40px;
+    text-align:center;
+    color: white;
+
+}
+
+.precio1{
+    position: absolute;
+    width: 144px;
+    height: 38px;
+    left: 421px;
+    top: 720px;
+    background-color: red;
+    border-radius: 40px;
+    text-align:center;
+    color: white;
+
+}
+
+.precio2{
+    position: absolute;
+    width: 144px;
+    height: 38px;
+    left: 785px;
+    top: 720px;
+    background-color: red;
+    border-radius: 40px;
+    text-align:center;
+    color: white;
+
+}
+
+.precio3{
+    position: absolute;
+    width: 144px;
+    height: 38px;
+    left: 1140px;
+    top: 720px;
+    background-color: red;
+    border-radius: 40px;
+    text-align:center;
+    color: white;
+}
+

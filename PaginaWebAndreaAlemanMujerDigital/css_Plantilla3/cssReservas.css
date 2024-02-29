@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Della Respira', serif;
+}
+
+body {
+    background-color: #FBE2B6;
+    text-align: justify;
+    font-family: 'Della Respira', serif;
+    color:#9D4D06;
+    
+    
+}
+.contenedor{
+    padding: 0% 2%;
+    margin: 40px;
+    padding-top: 0.3%;
+    
+
+}
+.contenedor1{ /*primer contenedor de texto*/
+    color:#9D4D06; 
+    width:35%; 
+    font-size: 30px; 
+    line-height:normal; 
+    text-align: justify; 
+    align-content: center; 
+
+}
+.contenedor2{/*segundo contenedor de texto*/
+    color:#9D4D06;
+     width:40%; 
+     font-size:38px; 
+     line-height:90px; 
+     text-align: center; 
+     align-content: center;
+}
+
+
+.contorno{
+    padding-top: 0.3%;
+    height: 80%;
+    object-fit: cover;
+    
+}
+
+
+h1 {/*solo titulo superior*/
+    /*width: 100%;*/
+    background-color: #15616D;
+    text-align: center;
+    color:#FFFEFD;
+    padding: 26px 4%;
+    font-size: 48px;
+    font-family: 'Della Respira', serif;
+    text-decoration: none;
+}
+.bordes{/*bordes de horario*/
+    background-color: #FBE2B6;
+    text-align: center;
+    color: #341F0A;
+    border-top: 10px solid #15616D;
+    border-bottom: 10px solid #15616D;
+    text-decoration: none;
+
+}
+
+
+h4 {
+    /*titulos secundarios*/
+    background-color: #15616D;
+    text-align: center;
+}
+
+
+
+h5{
+    display:inline-flexbox;
+    background:#15616D ;
+    padding: 5px 5px ;
+    color: #FFFEFD;
+    text-decoration:wavy;
+    border-radius: 80%;
+    
+    
+}
+.footer {
+    width: 100%;
+    padding: 3%;
+    font-size: 18px;
+    background-color: #A56933;
+    color:#FFFEFD;
+    text-align: center;
+    
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+/* Style de abajo de los links de navegación */
+.topnav a {
+    color:#A56933;
+    text-align: center;
+    padding: 14px 44px;
+    text-decoration:#A56933;
+    font-size: 28px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    text-decoration:underline;
+    font-weight: bold;
+}

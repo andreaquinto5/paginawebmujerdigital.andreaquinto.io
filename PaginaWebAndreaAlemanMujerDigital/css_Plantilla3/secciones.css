@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Della Respira', serif;
+}
+
+body {/*definicion del titulo*/
+    background-color: #FBE2B6;
+    justify-content: center;
+    font-family: 'Della Respira', serif;
+    color:#9D4D06;
+    height: auto;/*altura del titulo*/
+    width: 100%;
+    
+}
+
+.bordes{  /*//////titulo de reservacion*/
+    background-color: #FBE2B6;
+    text-align: center;
+    color: #341F0A;
+    border-top: 10px solid #15616D;/*bordes del titulo*/
+    border-bottom: 10px solid #15616D;/*bordes del titulo*/
+    text-decoration: none;
+    width: 54%;/*ancho del titulo*/
+    margin-left: 23%;
+
+}
+
+.primeras{/*alineacion de las imagenes*/
+    align-items: center;
+    text-align: center;
+    margin: 15px;/*margen entre ellas*/
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    width: 100%;
+    padding: 3%;
+    font-size: 18px;
+    background-color: #A56933;
+    color:#FFFEFD;
+    text-align: center;
+    
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+/* Style de abajo de los links de navegación */
+.topnav a {
+    color:#A56933;
+    text-align: center;
+    padding: 14px 44px;
+    text-decoration:#A56933;
+    font-size: 28px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    text-decoration:underline;
+    font-weight: bold;
+}
